@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Headland+One|Montserrat|Noto+Sans');
+#post_tbl{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 99.99%;
+	overflow-x: auto;
+	display: block;
+	background-color: #202020;
+	border-top: 5px solid #111111;;
+	
+	
+/*Max Body length == 94*/
+}
+
+.post{
+	background-color: white;
+	border: 3px solid black;
+	margin-left: 3em;
+	margin-right: 3em;
+	height:15em; 
+	width:25em;
+}
+
+#bpBody{
+	font-family: 'Noto Sans', sans-serif;
+	margin: 0 10em 0 10em;
+}
+
+/*BOOTSRAP===================================================================================*/
+.card {
+  height: 180px;
+  width:207px;
+  margin-right: 1em;
+  margin-left: 1em;
+  word-wrap: break-word;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25em;
+}
+.card-body {
+  padding: 1.25em;
+}
+.card-title {
+  margin-bottom: 0.75em;
+}
+.card-subtitle {
+  margin-top: -0.375em;
+  margin-bottom: 0;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+}
+.card-header {
+  padding: 0.75em 1.25em;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#jumbotron {
+  padding: 2rem 1rem;
+  width: 94%;
+  margin: 0 auto;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+
+}
+
+
+
+#display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: 'Headland One', serif;
+}
+
+#lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#my-4 {
+  margin-top: 1.5rem !important;
+}
+#my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+/*BOOTSRAP===================================================================================*/
+
+
+
+
+/* width */
+table::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+table::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+table::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+table::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+
+
+/*Add below for all pages*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html, body{
+	height:100%;
+}
+
+#container{
+	padding-top: 10px;
+	min-height: 100%;
+}
+
+#main{
+	overflow: auto;
+	padding-bottom: 80px;
+	width: 100%;
+	padding-top: 15px;
+	background-color: #202020;
+	height:70em;
+}
+
+#main > div{
+	float: left;
+	margin: 10px;
+}
+
+#footer{
+	background-color: #101010;
+	position: relative;
+	height: 8em;
+	margin-top: -80px;
+	clear: both;
+
+
+}
+
+
+#fttbl{
+	border-spacing: 2em;
+
+
+
+}
+
+.nav{
+	padding-top: 20px;
+	width: 100%;
+	border-spacing: 33%;
+	text-align: center;
+
+}
+
+.btns{
+	width: 12.8em;
+	height: 7.2em;
+}
+
+.btns:hover{
+	border-radius:0px 62px;
+	box-shadow:3px 6px 2px 1px grey;
+}
+
+.firstdiv{
+	background:darkgreen;
+	height: 15em;
+	margin:-10px 0 -10px -10px;
+	padding-top: 5px;
+
+}
+.name{
+	text-align: center;
+	font-size: 48px;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
